@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="209.0" prefWidth="448.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFX.auth.math.TestCalcGUI">
+   <children>
+      <BorderPane layoutX="3.0" layoutY="-4.0" prefHeight="209.0" prefWidth="448.0">
+         <left>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="218.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button id="btnPlus" layoutX="14.0" layoutY="82.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="87.0" text="Сложение" />
+                  <Button id="btnMinus" layoutX="111.0" layoutY="82.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="87.0" text="Вычетание" />
+                  <TextField id="txArRes" layoutX="77.0" layoutY="171.0" />
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="22.0" prefWidth="50.0" text="Число 1" />
+                  <Label layoutX="14.0" layoutY="171.0" prefHeight="22.0" prefWidth="57.0" text="Результат" />
+                  <TextField id="txArNum1" layoutX="71.0" layoutY="14.0" prefHeight="22.0" prefWidth="134.0" />
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="187.0" prefWidth="231.0" BorderPane.alignment="CENTER">
+               <children>
+                  <TextField id="txArNum2" layoutX="75.0" layoutY="14.0" prefHeight="22.0" prefWidth="134.0" />
+                  <Button id="btnMultiplicity" layoutX="17.0" layoutY="82.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="87.0" text="Умножение" />
+                  <Button id="btnDivision" layoutX="112.0" layoutY="82.0" mnemonicParsing="false" prefHeight="22.0" prefWidth="87.0" text="Деление" />
+                  <Label layoutX="14.0" layoutY="14.0" prefHeight="22.0" prefWidth="50.0" text="Число 2" />
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>
